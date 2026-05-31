@@ -75,7 +75,8 @@ app.post('/api/analyze-face', async (req, res) => {
 });
 // ... (කලින් කෝඩ් එක)
 
-const PORT = 3000;
-app.listen(PORT, () => {
-    console.log("🚀 Kondaya Gemini Server running on port 3000");
-});
+//const PORT = 3000;
+//app.listen(PORT, () => {
+    //console.log("🚀 Kondaya Gemini Server running on port 3000");
+//});
+module.exports = app;
